@@ -4,7 +4,7 @@
 }
 
 body{
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
 }
 
 /* NAVBAR */
@@ -12,7 +12,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     font-size: 18px;
     padding-top: 20px;
@@ -41,9 +41,14 @@ body{
     cursor: pointer;
     display: flex;
     column-gap: 30px;
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: #696969;
 }
 
 /* NAVBAR BUTTONS */
@@ -58,7 +63,7 @@ body{
     font-weight: 500;
     text-align: center;
     cursor: pointer;
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .navbar-items,.button2 {
@@ -71,7 +76,7 @@ body{
     font-weight: 500;
     text-align: center;
     cursor: pointer;
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
 }
 
 /* HOME */
@@ -87,7 +92,7 @@ body{
     font-size: 40px;
     align-items: flex-start;
     row-gap: 20px;
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .home-text-heading{
@@ -98,13 +103,13 @@ body{
 
 .home-text-heading-black{
     font-weight: 700;
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .home-text-heading-orange{
     font-weight: 700;
     color:#FF7629;
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .home-text-para{
@@ -166,7 +171,7 @@ body{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     row-gap: 40px;
 }
 
@@ -194,7 +199,7 @@ body{
 
 .menu-title, .info-text {
     font-weight: 700;
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-size: 20px;
 }
 
@@ -203,13 +208,13 @@ body{
     padding-left: 30px; 
     padding-right: 10px;
     color: #676767;
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     font-size: 17px;
 }
 
 .menu-explore{
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     font-size: 17px;
     color: #FF7629;
@@ -253,7 +258,7 @@ body{
     position: relative;
     border-radius: 25px;
     row-gap: 20px;
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     top: 200px;
     right: 300px;
@@ -291,13 +296,13 @@ body{
 }
 
 .aboutus-text, .ourmenu-text, .feedback-text, .article-title{
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 700;
     font-size: 32px;
 }
 
 .aboutus-para{
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     color: #8d8d8d;
     width: 80%;
@@ -316,7 +321,7 @@ body{
 
 .ourmenu-para, .feedback-info{
     width: 50%;
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     color: #727272;
 }
@@ -355,7 +360,7 @@ body{
 }
 
 .ourmenu-price-text{
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 700;
     font-size: 16px;
 }
@@ -367,7 +372,7 @@ body{
 }
 
 .ourmenu-product-name{
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 700;
     font-size: 24px;
 }
@@ -376,7 +381,7 @@ body{
     width: 250px;
     height: 50px;
     max-height: 100px;
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     color: #686868;
     font-size: 16px;
@@ -409,7 +414,7 @@ body{
 }
 
 .burger-info{
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 700;
     font-size: 38px;
     color: #ffffff;
@@ -417,7 +422,7 @@ body{
 }
 
 .burger-text{
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #fffafa;
@@ -441,7 +446,7 @@ body{
     border-style: solid;
     border-color: #ffffff;
     cursor: pointer;
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .burger-img, .backbtn{
@@ -506,13 +511,13 @@ body{
 }
 
 .feedback-comment{
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     font-size: 24px;
 }
 
 .feedback-comment-text{
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     font-size: 14px;
     color: #716f6f;
@@ -538,12 +543,12 @@ body{
 }
 
 .name1{
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 500;
 }
 
 .add{
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     color: #595858;
 }
@@ -598,7 +603,7 @@ body{
 }
 
 .article-date{
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     font-size: 15px;
     color: #737373;
@@ -606,7 +611,7 @@ body{
 }
 
 .article-info{
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 700;
     font-size: 26px;
     padding-left: 20px;
@@ -614,7 +619,7 @@ body{
 }
 
 .article-summary{
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     font-size: 15px;
     color: #8f8f8f;
@@ -652,7 +657,7 @@ body{
 }
 
 .article-small-info{
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 700;
     font-size: 16px;
     padding-left: 20px;
@@ -675,7 +680,7 @@ body{
 }
 
 .table-title{
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 700;
     font-size: 34px;
     align-self: auto;
@@ -683,7 +688,7 @@ body{
 
 .table-info{
     width: 50%;
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #727171;
@@ -717,7 +722,7 @@ body{
 }
 
 .address, .number, .mail-id{
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     color: #717070;
 }
@@ -794,7 +799,7 @@ body{
     text-align: center;
     border: 1px none #1890ff;
     cursor: pointer;
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     width: 40%;
 }
 
@@ -819,7 +824,7 @@ body{
 }
 
 .instagram-text{
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 700;
     font-size: 32px;
 }
@@ -832,7 +837,7 @@ body{
 }
 
 .instagram-follow{
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     font-size: 18px;
     color: #ffffff;
@@ -868,7 +873,7 @@ body{
 
 .restaurant-info{
     width: 100%;
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     color: #6a6868;
 }
@@ -889,7 +894,7 @@ body{
 
 .page-contents{
     display: flex;
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     font-size: 20px;
     align-items: flex-start;
@@ -907,7 +912,7 @@ body{
 
 .page-items{
     font-size: 16px;
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     color: #7f7c7c;
 }
@@ -920,7 +925,7 @@ body{
 }
 
 .insta-text{
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     font-size: 20px;
 }
