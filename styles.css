@@ -7,6 +7,11 @@ body{
     font-family: 'DM Sans', sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color:#696969
+}
+
 /* NAVBAR */
 .navbar{
     display: flex;
@@ -18,6 +23,7 @@ body{
     padding-top: 20px;
     padding-bottom: 30px;
     color: #696969;
+    font-weight: bold;
 }
 
 /* NAVBAR TEXT */
@@ -46,11 +52,6 @@ body{
     font-size: 18px;
 }
 
-a{
-    text-decoration: none;
-    color: #696969;
-}
-
 /* NAVBAR BUTTONS */
 
 .navbar-items,.button1 {
@@ -77,6 +78,12 @@ a{
     text-align: center;
     cursor: pointer;
     font-family: 'DM Sans', sans-serif;
+    text-decoration: none;
+}
+
+.a{
+    text-decoration: none;
+    color: white;
 }
 
 /* HOME */

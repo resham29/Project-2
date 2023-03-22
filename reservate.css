@@ -1,0 +1,252 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #696969;
+}
+
+/* NAVBAR */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: #696969;
+    font-weight: bold;
+}
+
+/* NAVBAR TEXT */
+.navbar-text {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+
+/* NAVBAR LOGO */
+.navbar-logo{
+    display: flex;
+}
+
+.navbar_items{
+    display: flex;
+    column-gap: 30px;
+}
+
+.navbar-links{
+    cursor: pointer;
+    display: flex;
+    column-gap: 30px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* NAVBAR BUTTONS */
+
+.navbar-items, .button1 {
+    color: black;
+    background-color: white;
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: 1px solid #cccccc;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.navbar-items, .button2 {
+    color: white;
+    background-color: #FF7629;
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: 1px none #1890ff;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+/* TABLE */
+.table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    padding-top: 100px;
+}
+
+.table-title{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+}
+
+.table-info{
+    width: 50%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* OPEN */
+.open{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    row-gap: 20px;
+    padding: 100px 150px;
+    width: 100%;
+}
+
+.open-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    column-gap: 15px;
+    font-family: 'DM Sans', sans-serif;
+    padding: 15px 20px;
+    flex-direction: column;
+    box-sizing: content-box;
+}
+
+.open-box-border{
+    display: flex;
+    flex-direction: column;
+    background: #FF7629;
+    padding: 32px;
+    outline: 1px dashed #f9e2af;
+    outline-offset: -15px;
+    font-family: 'DM Sans', sans-serif;
+    border-radius: 40px;
+    border: solid #d9d4d4;
+}
+
+.open-text{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    align-self: auto;
+}
+
+.days{
+    color:#696969;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    row-gap: 10px;
+    padding-top: 10px;
+}
+
+.time{
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    row-gap: 10px;
+    padding-top: 10px;
+}
+
+
+/* DETAILS */
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    padding-top: 100px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+}
+
+
+/* BOOKING */
+/* .booking{
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 70%;
+    justify-content: center;
+}
+
+.booking-details{
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+    padding: 80px;
+    row-gap: 30px;
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 18px;
+    right: 140px;
+    border-radius: 40px;
+    border: solid #d9d4d4;
+    box-sizing: border-box;
+}
+
+.booking-info{
+    display: flex;
+    column-gap: 20px;
+}
+
+.booking-no{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.deets{
+    box-sizing: border-box;
+    font-variant: tabular-nums;
+    padding: 11px 15px;
+    color: #000000d9;
+    font-size: 14px;
+    background-image: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 20px;                    
+}
+
+.deets1{
+    box-sizing: border-box;
+    font-variant: tabular-nums;
+    padding: 11px 15px;
+    color: #000000d9;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 20px;
+    height: 180px;
+    align-self: auto;
+    text-align: center;
+}
+
+.button4{
+    color: #fff;
+    background-color: #FF7629;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 50px;
+    outline: none;
+    font-weight: 500;
+    text-align: center;
+    border: 1px none #1890ff;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    width: 40%;
+} */ 
